@@ -9,6 +9,13 @@ Changelog
 0.20
 ====
 
+0.20.2
+------
+Fixed
+^^^^^
+- fix field is nullable but pydantic field of model created is required (#1515)
+
+
 0.20.1
 ------
 Added
