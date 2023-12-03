@@ -9,13 +9,6 @@ Changelog
 0.20
 ====
 
-0.20.2
-------
-Fixed
-^^^^^
-- fix field is nullable but pydantic field of model created is required (#1515)
-
-
 0.20.1
 ------
 Added
@@ -23,6 +16,7 @@ Added
 - Add binary compression support for `UUIDField` in `MySQL`. (#1458)
 - Only `Model`, `Tortoise`, `BaseDBAsyncClient`, `__version__`, and `connections` are now exported from `tortoise`
 - Add parameter `validators` to `pydantic_model_creator`. (#1471)
+- fix field is nullable but pydantic field of model created is required (#1515)
 
 Fixed
 ^^^^^
